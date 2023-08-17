@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@font-face{
+    font-family: idroid;
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+}
+
+body{
+    margin: 0px;
+    background-color: #84E1AD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    padding: 10px;
+    background-image: linear-gradient(to top, #1A5C38, #3CD681);
+    color: white;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.425);
+    width: 100%;
+}
+header > h1{
+    font-weight: normal;
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.575);
+    font-family: 'Oswald', sans-serif;
+}
+header > h4{
+    font-weight: lighter;
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.685);
+    font-family:Arial, Helvetica, sans-serif;
+}
+header > nav{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+nav > .nav-links{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+    transition:background-color .4s ease-in;    
+}
+
+.nav-links:hover{
+    background-color: #aff3d1;
+    color: #1A5C38;
+}
+
+main{
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.151);
+}
+
+main > h2{
+    font-family: idroid;
+    color: #1A5C38;
+}
+
+main > h3{
+    font-family: idroid;
+    color: #1A5C38;
+    background-image: linear-gradient(to right, #43d38448, white);
+    padding: 5px;
+}
+
+main > .imagem{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    text-indent: 3ch;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+span{
+    color: #1A5C38;
+    font-weight: bold;
+}
+
+.links{
+    text-decoration: none;
+    color: #1A5C38;
+    font-weight: bold;
+}
+
+.links::after{
+    content: '🔗';
+}
+
+#video{
+    background-color: #1A5C38;
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.151);
+}
+
+section{
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.151);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.288);
+}
+
+.box > h3{
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+.box > article{
+    background-color: #C5EBD6;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.lista{
+    display: flex;
+    gap: 25%;
+}
+
+ul{
+    list-style-type: none;                                               
+}
+
+li::before{
+    content: '✔';
+}
+
+footer{
+    background-color: #1A5C38;
+    width: 100%;
+    color: white;
+    height: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
